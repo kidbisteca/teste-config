@@ -1,0 +1,122 @@
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {background-color: black;
+
+
+}
+
+
+
+
+.main-header {
+ 
+font-size: 90px;
+    background-color:darkgreen;
+    height: fit-content;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    
+
+
+}
+
+.main-header img {
+
+    width: 300px;
+    flex-wrap: wrap;
+
+
+}
+
+.main-header ul {
+
+    display: flex;
+    gap: 12px;
+
+}
+
+.main-header ul a {
+
+    color: rgba(255, 255, 255, 0.739);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+
+
+.main-content section {
+
+    color: white;
+
+}
+
+.main-content .home {
+
+    height: 100vh;
+    background-color: #101010;
+
+}
+.main-content .home img {
+    width: 50%;
+}
+
+.main-content .curiosidades {
+
+    background-color: #151515;
+
+}
+
+.curiosidades .cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 60px;
+
+}
+
+ 
+.curiosidades .cards img {
+   
+   width: 50%;
+   display: flex;
+flex-wrap: wrap;
+
+
+}
+
+
+
+.main-content .video {
+
+    background-color: #202020;
+
+}
+
+
+ div {
+     
+    justify-content: baseline;
+
+ }
+
+.curitiba {
+    width: 100px;
+
+}
