@@ -1,5 +1,6 @@
 
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
 
     padding: 0;
@@ -11,11 +12,10 @@
 }
 
 
-body {background-color: black;
-
+body {
+     background-color: #6b9a61;
 
 }
-
 
 
 
@@ -68,16 +68,16 @@ font-size: 90px;
 .main-content .home {
 
     height: 100vh;
-    background-color: #101010;
+    background-color:#6b9a61;
 
 }
 .main-content .home img {
-    width: 50%;
+    width:70%;
 }
 
 .main-content .curiosidades {
 
-    background-color: #151515;
+    background-color: #6b9a61;
 
 }
 
@@ -105,13 +105,13 @@ flex-wrap: wrap;
 
 .main-content .video {
 
-    background-color: #202020;
+    background-color:#6b9a61 ;
 
 }
 
 
  div {
-     
+     gap: 24px;
     justify-content: baseline;
 
  }
@@ -120,3 +120,4 @@ flex-wrap: wrap;
     width: 100px;
 
 }
+ 
